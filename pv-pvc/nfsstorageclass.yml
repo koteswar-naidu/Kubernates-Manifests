@@ -97,7 +97,7 @@ spec:
        - name: nfs-provisioner-v # same as volumemouts name
          nfs:
            server: 172.31.33.177
-           path:  /mnt/share   
+           path:  /mnt/nfs_share   
 ---
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
