@@ -92,7 +92,7 @@ spec:
             - name: NFS_SERVER # do not change
               value: 172.31.33.177 # Ip of the NFS SERVER
             - name: NFS_PATH # do not change
-              value: /mnt/share # path to nfs directory setup
+              value: /mnt/nfs_share # path to nfs directory setup
       volumes:
        - name: nfs-provisioner-v # same as volumemouts name
          nfs:
